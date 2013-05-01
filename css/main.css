@@ -1,0 +1,36 @@
+/* CSS Document */
+
+body{
+background: url('../img/bgtile.png') center top;
+}
+
+html, body{
+	height:100%;	
+}
+
+#tileWrap{
+	width:1000px;
+	height:671px;
+	margin-top:42px;
+	margin-left:-25px;
+	position:absolute;
+	z-index:-1;
+}
+
+#main_wrapper{
+	position:relative;
+	width:1000px;
+	margin:auto;
+	height:100%;
+	background: url(../img/bgtile.png) -25px 0px;
+	z-index:0;
+}
+
+#logo h1{
+	padding:45px 5px 0px 53px;
+}
+
+#logo #logospacer{
+	padding-left:25px;
+}
+
