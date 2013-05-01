@@ -1,5 +1,5 @@
 <?php 
-$title = "Page Name";
+$title = "Linc Property";
 require_once('template/header.php');
 ?>
 
