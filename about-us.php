@@ -3,12 +3,12 @@ $title = "Linc Property";
 require_once('template/header.php');
 ?>
 
-  <body id="index">
-    <div id="main_wrapper" class="container">
-      <a href="about-us.php">
-        <div id="tileWrap"></div>
-        <div id="logo" class="row"><div class="span3"><h1>LINC<br/><span id="logospacer">PROPERTY</span></h1></div></div>
-      </a>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span4"><h1>Title</h1><p>this is some text</p></div>
+        <div class="span8"><h1>Title</h1><p>this is some text</p></div>
+      </div>
     </div>
     <img id="loadlogo" style="display:none;" src="resourcs/images/hero1.jpg" />
     <img style="display:none;" src="resourcs/images/hero2.jpg" />

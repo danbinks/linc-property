@@ -1,7 +1,11 @@
 /* CSS Document */
 
 body{
-background: url('../img/bgtile.png') center top;
+background: url('../img/bgsmall.png') center top;
+}
+
+body#index{
+	background: url('../img/bgtile.png') center top;
 }
 
 html, body{
@@ -26,8 +30,13 @@ html, body{
 	z-index:0;
 }
 
+#main_wrapper a:hover {
+	text-decoration:none;
+}
+
 #logo h1{
-	padding:45px 5px 0px 53px;
+	padding:45px 5px 0px 51px;
+	margin-left:-28px;
 }
 
 #logo #logospacer{
